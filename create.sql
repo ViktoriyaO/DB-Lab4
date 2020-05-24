@@ -174,7 +174,7 @@ ALTER TABLE ring
 -- ERRORS                                   0
 -- WARNINGS                                 0
 
---Завдання на тригер: Не дозволяє змінити колір купленого діаманту
+--Р—Р°РІРґР°РЅРЅСЏ РЅР° С‚СЂРёРіРµСЂ: РќРµ РґРѕР·РІРѕР»СЏС” Р·РјС–РЅРёС‚Рё РєРѕР»С–СЂ РєСѓРїР»РµРЅРѕРіРѕ РґС–Р°РјР°РЅС‚Сѓ
 CREATE OR REPLACE TRIGGER customer_color_trigger
     BEFORE UPDATE
     OF ring_diamond_color_color ON customer
