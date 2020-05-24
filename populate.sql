@@ -1,4 +1,4 @@
---Додавання інформації в таблицю  category
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ  category
 
 INSERT INTO category (cut) VALUES ('Ideal');
 
@@ -7,7 +7,7 @@ INSERT INTO category (cut) VALUES ('Good');
 INSERT INTO category (cut) VALUES ('Fair');
 
 
---Додавання інформації в таблицю clarity
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ clarity
 
 INSERT INTO clarity (clarity) VALUES ('IF');
 
@@ -16,7 +16,7 @@ INSERT INTO clarity (clarity) VALUES ('VS1');
 INSERT INTO clarity (clarity) VALUES ('I1');
 
 
---Додавання інформації в таблицю  color
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ  color
 
 INSERT INTO color (color) VALUES ('D');
 
@@ -25,7 +25,7 @@ INSERT INTO color (color) VALUES ('G');
 INSERT INTO color (color) VALUES ('J');
 
 
---Додавання інформації в таблицю diamond
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ diamond
 
 INSERT INTO diamond (diamond_index, carat_weight, category_cut, clarity_clarity, color_color)
 VALUES ('1', '0.23', 'Ideal', 'I1', 'J');
@@ -37,7 +37,7 @@ INSERT INTO diamond (diamond_index, carat_weight, category_cut, clarity_clarity,
 VALUES ('3', '0.28', 'Good', 'VS1', 'D');
 
 
---Додавання інформації в таблицю ring
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ ring
 
 INSERT INTO ring (ring_index, diamond_diamond_index, diamond_category_cut, diamond_clarity_clarity, diamond_color_color)
 VALUES ('11', '1', 'Ideal', 'I1', 'J');
@@ -49,7 +49,7 @@ INSERT INTO ring (ring_index, diamond_diamond_index, diamond_category_cut, diamo
 VALUES ('33', '3', 'Good', 'VS1', 'D');
 
 
---Додавання інформації в таблицю customer
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ customer
 
 INSERT INTO customer (id, customer_name, person_name, ring_ring_index, ring_diamond_diamond_index, 
 ring_diamond_category_cut, ring_diamond_clarity_clarity, ring_diamond_color_color)
